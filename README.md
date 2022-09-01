@@ -1,2 +1,4 @@
 # Accelerated-Computational-Linguistics-finalProject
 Final project for CS72. Song genre classification by clustering songs with K-Means
+
+This project utilizes KMeans clustering of song lyrics to try and predict the genre of input lyrics from the user. Song lyrics are converted into vectors using the TFidfVectorizer method from sklearn, and then grouped into 6 genres (Country, Rap, Rock, Heavy Metal, Pop, and Jazz) based on salient features from each genre. This program takes copy-pasted input from the user found from any lyrics website, and attempts to predict its genre. The project is split into three .py files that 1) scrape the web for song lyrics using the Genius API and python module lyricsgenius 2) cluster the lyrics using aforementioned algorithms 3) generates testing lyrics and returns accuracy data.  
